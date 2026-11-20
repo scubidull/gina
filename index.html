@@ -33,15 +33,15 @@
 
   .painel{max-height:0;opacity:0;overflow:hidden;
           transition:max-height .5s ease,opacity .4s ease;padding:0 20px}
-  .painel.aberto{max-height:600px;opacity:1;padding:6px 20px 22px}
+  .painel.aberto{max-height:1400px;opacity:1;padding:6px 20px 22px}
   .painel-conteudo{display:flex;gap:14px}
-  .perfil{width:96px;flex-shrink:0;font-size:15px;line-height:1.35;opacity:.95}
+  .perfil{width:96px;flex-shrink:0;font-size:14px;line-height:1.35;opacity:.95;word-break:break-word}
   .coracao{width:40px;height:40px;border-radius:50%;background:#fff;
            display:flex;align-items:center;justify-content:center;margin-bottom:8px}
   .coracao svg{width:20px;height:20px;fill:var(--destaque)}
   .perfil .nome{display:inline-block;border-bottom:3px solid var(--destaque);padding-bottom:2px;margin-bottom:4px}
-  .textos{flex:1;font-size:15px;line-height:1.5}
-  .textos p{padding:3px 0;border-bottom:2px solid #fff}
+  .textos{flex:1;font-size:14px;line-height:1.45}
+  .textos p{padding:4px 0;border-bottom:2px solid #fff}
   .textos b{font-weight:700;margin-right:4px}
 
   .galeria{display:flex;justify-content:center;gap:12px;padding:20px 16px;background:var(--card-baixo)}
@@ -96,18 +96,24 @@ const CONFIG = {
   capa: "imagens/capa.jpg",
 
   itens: [
-    { img:"imagens/foto1.jpg", cor:"#d9b99b", titulo:"SCUBIDU", detalhe:"2007 - eng+-, pt & esp. she/her",
-      textos:[["byf","sou bem ativa e respondo rápido quando consigo."],
-              ["dfi","preconceito, grosseria e piadas insensíveis e hater da Lisa e da RedBull."]] },
-    { img:"imagens/foto2.jpg", cor:"#b5483f", titulo:"Gostos", detalhe:"GTA 6 and Scooby-Doo",
-      textos:[["jogos","Ghost of Tsushima, LEGOs, GTAs, Jogo de corrida e Fortnite."],
-              ["filmes/séries","Batman, The Mentalist, Moon Knight, Ninjago, Teens Titans, The Body, Regular Show, Scooby-Doo."]] },
-    { img:"imagens/foto3.jpg", cor:"#c9a96e", titulo:"Playlist", detalhe:"músicas do momento",
-      textos:[["ouvindo","Leave With Me, LISA."],
-              ["mood","aconchegante, tranquila, dia de chuva."]] },
-    { img:"imagens/foto4.jpg", cor:"#8a3a3a", titulo:"naosei", detalhe:"",
-      textos:[["insta","@btmwalker"],
-              ["te amo pessoa que ta lendo <3", "<3 <3"]] }
+    { img:"imagens/foto1.jpg", cor:"#d9b99b", titulo:"gina", detalhe:"@1997intokyo",
+      textos:[["sobre","ela/dela, lésbica, br, nordestina, pt-br, taurina, isfp"],
+              ["antes de seguir","only lilie! dou sdv, mas se eu não simpatizar com suas postagens, dou sb. falo sobre vivências do dia-a-dia, sobre o que estou consumindo no momento (filmes, séries, desenhos), faço posts de admiração a mulheres, falo palavrão, sou reclamona e hipócrita."]] },
+    { img:"imagens/foto2.jpg", cor:"#b5483f", titulo:"não siga se", detalhe:"",
+      textos:[["•","critérios básicos de dnfi"],
+              ["•","anti das minhas favs"],
+              ["•","faz parte de algum twt problemático"],
+              ["•","shipper chato"],
+              ["•","se não temos nenhum interesse em comum"],
+              ["•","romantiza transtorno"]] },
+    { img:"imagens/foto3.jpg", cor:"#c9a96e", titulo:"gostos", detalhe:"jogos, músicas, filmes & séries",
+      textos:[["jogos","pubg, roblox, minecraft, my singing monsters, plato, qualquer um que eu consiga jogar!!"],
+              ["música","lisa, chuu, njz, clairo, melanie martinez, beabadoobee, olivia rodrigo, sza, au/ra, adela."],
+              ["filmes & séries","nerve (filme), the haunting of hill house (série), the haunting of bly manor (série), the vampire diaries (série), franquia de invocação do mal (filmes), scream queens (série), a vida sexual das universitárias (série), etc."],
+              ["cartoons","studio ghibli, hora de aventura, the owl house, princesas disney, my little pony, equestria girls, harley quinn, etc."]] },
+    { img:"imagens/foto4.jpg", cor:"#8a3a3a", titulo:"likes", detalhe:"e deslikes",
+      textos:[["likes","lisa, gatos, filmes, séries, doce, lanches, arte, música, gastronomia, rpg, refrigerante, pistache, inde navarrette, emma roberts, mckenna grace, lily collins."],
+              ["deslike","grosseria, gore, sangue, pressão, café, chá, insetos."]] }
   ]
 };
 
